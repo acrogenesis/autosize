@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "autosize"
-  s.version     = "0.1.18.1"
+  s.version     = "1.1.18.1"
   s.authors     = ["Jack Moore", "Adrian Rangel"]
   s.email       = ["adrian.rangel@gmail.com"]
   s.homepage    = "https://github.com/acrogenesis/autosize-gem"
