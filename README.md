@@ -25,3 +25,7 @@ Contributing
 License
 ------------
 The MIT License (MIT)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/acrogenesis/autosize/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
