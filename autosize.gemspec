@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.version     = Autosize::Rails::VERSION
   gem.authors     = ["Jack Moore", "Adrian Rangel"]
   gem.email       = ["adrian.rangel@gmail.com"]
-  gem.homepage    = "https://github.com/acrogenesis/autosize-gem"
+  gem.homepage    = "https://github.com/acrogenesis/autosize"
   gem.summary     = %q{This gem allows you to use Autosize jQuery plugin}
   gem.description = %q{Small jQuery plugin to allow dynamic resizing of textarea height, so that it grows as based on visitor input. To use, just call the .autosize() method on any textarea element.}
   gem.license     = "MIT"
