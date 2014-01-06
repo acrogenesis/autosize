@@ -1,22 +1,24 @@
 # -*- encoding: utf-8 -*-
-$:.push File.expand_path("../lib", __FILE__)
+require File.expand_path('../lib/autosize-rails/version', __FILE__)
 
-Gem::Specification.new do |s|
-  s.name        = "autosize"
-  s.version     = "2.1.18.1"
-  s.authors     = ["Jack Moore", "Adrian Rangel"]
-  s.email       = ["adrian.rangel@gmail.com"]
-  s.homepage    = "https://github.com/acrogenesis/autosize-gem"
-  s.summary     = %q{This gem allows you to use Autosize jQuery plugin}
-  s.description = %q{Small jQuery plugin to allow dynamic resizing of textarea height, so that it grows as based on visitor input. To use, just call the .autosize() method on any textarea element.}
-  s.license     = "MIT"
+Gem::Specification.new do |gem|
+  gem.name        = "autosize"
+  gem.version     = Autosize::Rails::VERSION
+  gem.authors     = ["Jack Moore", "Adrian Rangel"]
+  gem.email       = ["adrian.rangel@gmail.com"]
+  gem.homepage    = "https://github.com/acrogenesis/autosize-gem"
+  gem.summary     = %q{This gem allows you to use Autosize jQuery plugin}
+  gem.description = %q{Small jQuery plugin to allow dynamic resizing of textarea height, so that it grows as based on visitor input. To use, just call the .autosize() method on any textarea element.}
+  gem.license     = "MIT"
 
-  s.rubyforge_project = "autosize"
+  gem.rubyforge_project = "autosize"
 
-  s.files         = `git ls-files`.split("\n")
-  s.files         = Dir["{app,lib,vendor}/**/*"]
-  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
+  gem.files         = `git ls-files`.split("\n")
+  gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
+  gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
+  gem.require_paths = ["lib"]
 
-  s.add_dependency "jquery-rails"
+  gem.add_dependency "jquery-rails"
+  gem.add_development_dependency "rake"
+
 end
