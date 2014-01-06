@@ -1,8 +1,8 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/autosize-rails/version', __FILE__)
+require File.expand_path('../lib/autosize/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name        = "autosize-rails"
+  gem.name        = "autosize"
   gem.version     = Autosize::Rails::VERSION
   gem.authors     = ["Jack Moore", "Adrian Rangel"]
   gem.email       = ["adrian.rangel@gmail.com"]

@@ -1,4 +1,4 @@
-require "autosize-rails/version"
+require "autosize/version"
 
 module Autosize
   module Rails

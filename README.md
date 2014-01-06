@@ -1,4 +1,4 @@
-Autosize-rails
+Autosize
 ============
 
 This gem bundles the contents of the [JQuery Autosize Plugin](https://github.com/jackmoore/autosize) from Jack Moore
@@ -7,7 +7,7 @@ Small jQuery plugin to allow dynamic resizing of textarea height, so that it gro
 
 ## Install
 
-add `gem 'autosize-rails'` to your `Gemfile` (and then run `bundle install`).
+add `gem 'autosize'` to your `Gemfile` (and then run `bundle install`).
 
 And in your application.js:
 `//= require jquery.autosize`
