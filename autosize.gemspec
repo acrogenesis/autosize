@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "autosize"
-  s.version     = "1.1.18.1"
+  s.version     = "2.1.18.1"
   s.authors     = ["Jack Moore", "Adrian Rangel"]
   s.email       = ["adrian.rangel@gmail.com"]
   s.homepage    = "https://github.com/acrogenesis/autosize-gem"
@@ -14,7 +14,9 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "autosize"
 
   s.files         = `git ls-files`.split("\n")
+  s.files         = Dir["{app,lib,vendor}/**/*"]
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
-  s.require_paths = ["lib"]
+
+  s.add_dependency "jquery-rails"
 end
