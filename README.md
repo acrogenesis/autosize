@@ -21,11 +21,3 @@ Contributing
 4. Push to the branch (`git push origin my_markup`)
 5. Open a [Pull Request][1]
 6. Enjoy a refreshing 'Insert Favorite Beverage' and wait
-
-License
-------------
-The MIT License (MIT)
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/acrogenesis/autosize/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
