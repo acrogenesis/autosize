@@ -1,16 +1,32 @@
 Autosize
 ============
 
-This gem bundles the contents of the [JQuery Autosize Plugin](https://github.com/jackmoore/autosize) from Jack Moore
+This gem bundles the contents of the [Autosize Plugin](https://github.com/jackmoore/autosize) from Jack Moore
 
-Small jQuery plugin to allow dynamic resizing of textarea height, so that it grows as based on visitor input.  To use, just call the `.autosize()` method on any textarea element. Example `$('textarea').autosize();`.  See the [project page](http://jacklmoore.com/autosize/) for documentation, caveats, and a demonstration.
+Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.
+
+## Usage
+```
+The autosize function accepts a single textarea element, or an array or array-like object (such as a NodeList or jQuery collection) of textarea elements.
+
+// from a NodeList
+autosize(document.querySelectorAll('textarea'));
+
+// from a single Node
+autosize(document.querySelector('textarea'));
+
+// from a jQuery collection
+autosize($('textarea'));
+```
+
+See the [project page](http://jacklmoore.com/autosize/) for documentation, caveats, and a demonstration.
 
 ## Install
 
 add `gem 'autosize'` to your `Gemfile` (and then run `bundle install`).
 
 And in your application.js:
-`//= require jquery.autosize`
+`//= require autosize`
 
 Contributing
 ------------
